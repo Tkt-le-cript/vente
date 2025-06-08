@@ -1,0 +1,3 @@
+body { font-family: sans-serif; max-width: 600px; margin: auto; padding: 2rem; }
+input, textarea, button { width: 100%; margin: 1rem 0; padding: 0.5rem; }
+pre { background: #f0f0f0; padding: 1rem; white-space: pre-wrap; }
