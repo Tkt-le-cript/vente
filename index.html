@@ -3,30 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Générateur de site IA</title>
-  <script defer src="script.js"></script>
-  <style>
-    body { font-family: sans-serif; max-width: 600px; margin: 2rem auto; }
-    input, select, textarea, button { width: 100%; margin: 1rem 0; padding: 0.5rem; }
-    pre { background: #f0f0f0; padding: 1rem; overflow-x: auto; }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>Génère ton site avec l'IA</h1>
-  
   <input type="text" id="nom" placeholder="Nom du site">
-  <select id="type">
-    <option value="portfolio">Portfolio</option>
-    <option value="blog">Blog</option>
-    <option value="entreprise">Page d'entreprise</option>
-  </select>
-  <input type="text" id="couleur" placeholder="Couleur principale (ex : bleu, #ff6600)">
-  <textarea id="sections" placeholder="Sections (ex: Accueil, À propos, Contact)"></textarea>
-  
-  <button id="generateBtn">Créer le site</button>
-  
-  <h2>Code généré :</h2>
+  <input type="text" id="couleur" placeholder="Couleur principale">
+  <textarea id="sections" placeholder="Sections (ex: Accueil, Contact)"></textarea>
+  <button id="generateBtn">Générer</button>
   <pre id="result"></pre>
-  
-  <button id="downloadBtn" style="display:none;">Télécharger en .zip</button>
+
+  <script src="script.js"></script>
 </body>
 </html>
